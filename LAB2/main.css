@@ -1,9 +1,4 @@
 /* External Style Sheet */
-.body    { font-family: arial, sans-serif; 
-          text-align: center;}
-.h1      { font-family: arial; 
-          font-size: 36pt; }
-
 .center-block {
     width: 300px;
     margin: 50px auto;
