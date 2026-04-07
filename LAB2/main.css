@@ -5,4 +5,4 @@ h1      { font-family: arial;
           font-size: 36pt; }
 
 div     { text-align: center; margin-bottom: 1em; padding: .5em; }
-.ridge  { border-style: ridge;
+.ridge  { border-style: ridge; }
