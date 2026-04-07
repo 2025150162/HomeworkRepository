@@ -14,21 +14,50 @@
     <div class = "ridge">
       <form method = "GET" action = "https://www.example.com">
         <p>
-          <label>이름: 
-          <input type = "text" name = "name" \></label>
-        </p>
+          이름:
+          <label> 
+          <input type = "text" name = "name" \></label></p>
         <p>
-          <label>생일:
-          <input type = "date" name = "date" \></label>
-        </p>
+          생일:
+          <label>
+          <input type = "date" name = "date" \></label></p>
         <p>
           성별:
           <label>
           <input type = "radio" name = "gender" value = "male" \> 남성</label>
           <label>
-          <input type = "radio" name = "gender" value = "female" \> 여성</label>
-        </p>
-        
+          <input type = "radio" name = "gender" value = "female" \> 여성</label></p>
+        <p>
+          학년:
+          <label>
+            <input type = "number" name = "grade" min = "1" max = "4" step = "1" value = "1" \> </label></p>
+
+        <p>
+          아이디:
+          <label> 
+          <input type = "text" name = "id" required \></label></p>
+        <p>
+          비밀번호:
+          <label>
+          <input type = "password" name = "pw" required \></label></p>
+        <p>
+          이메일:
+          <label>
+          <input type = "email" name = "email" placeholder = "name@domain.com" required \></label></p>
+        <p>
+          보안 질문:
+          <label>
+          <input type = "text" name = "SQ" id = "txtList" list = "SecurityQuestion" \>
+          <datalist id = "SecurityQuestion">
+            <option value = "첫 애완동물의 이름은?">
+            <option value = "내가 다닌 초등학교의 이름은?">
+            <option value = "나랑 가장 친한 친구의 이름은?">
+          </datalist>
+          </label></p>
+        <p>
+          답변:
+          <label>
+          <input type = "text" name = "answer" \></label></p>
       </form>
     </div>
     
