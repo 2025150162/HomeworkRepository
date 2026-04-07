@@ -1,9 +1,17 @@
 /* External Style Sheet */
+h1 {
+    font-weight: 300;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
 .center-block {
     width: 300px;
     margin: 50px auto;
     background-color: #f4f4f4;
-    padding: 20px; /* This creates space between the box edge and the form */
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
