@@ -1,8 +1,22 @@
 /* External Style Sheet */
-body    { font-family: arial, sans-serif; 
+.body    { font-family: arial, sans-serif; 
           text-align: center;}
-h1      { font-family: arial; 
+.h1      { font-family: arial; 
           font-size: 36pt; }
 
-div     { text-align: center; margin-bottom: 1em; padding: .5em; }
-.ridge  { border-style: ridge; }
+.center-block {
+    width: 300px;
+    height: 200px;
+    background-color: #3498db;
+    color: white;
+    
+    /* This centers the block horizontally */
+    margin: 50px auto; 
+    
+    /* Optional: prettiness */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
