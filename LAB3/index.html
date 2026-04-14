@@ -11,12 +11,12 @@
       h1
       {
         position: relative;
-        animation: headerToLeft ease-out 2s;
+        animation: headerToLeft ease-in-out 2s 1s 1 normal;
       }
       @keyframes headerToLeft
       {
-        0%   {opacity: 0.2; left:800px; top:100px; }
-        100% {opacity: 1.0; left:50px; top:100px; }
+        0%   {opacity: 0.2; left:400px; top:100px; }
+        100% {opacity: 1.0; left:-4000px; top:100px; }
       }
     </style>
   </head>
