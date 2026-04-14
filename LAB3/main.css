@@ -1,1 +1,8 @@
 /* External Style Sheet */
+
+h1 {
+    font-weight: 300;
+    color: #333;
+    text-align: center;
+    padding-bottom: 10px;
+}
