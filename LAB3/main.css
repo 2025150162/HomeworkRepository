@@ -6,3 +6,8 @@ h1 {
     margin-left: 75px;
     margin-top: 150px;
 }
+
+.flex-container {
+display: flex;
+flex-direction: row;
+}
