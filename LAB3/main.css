@@ -10,6 +10,7 @@ h1 {
 
 .flex-container {
   display: flex;
+  margin-left: 75px;
   flex-direction: row;
   background-color: Light-Grey;
 }
@@ -18,8 +19,7 @@ h1 {
   background-color: #f1f1f1;
   width: 100px;
   margin: 10px;
-  margin-left: 75px;
   padding: 10px;
   text-align: center;  
-  font-size: 10px;
+  font-size: 15px;
 }
