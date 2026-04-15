@@ -6,13 +6,7 @@ h1 {
     margin-left: 75px;
     margin-top: 100px;
     
-    position: relative;
-    animation: headerToLeft ease-in-out 2s 1s 1 normal;
-    @keyframes headerToLeft
-      {
-        0%   {opacity: 0.0; left:1000px; top:0px; }
-        100% {opacity: 1.0; left:0px; top:0px; }
-      }
+    
 }
       
 
