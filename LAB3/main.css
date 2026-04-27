@@ -30,3 +30,54 @@ h1 {
   text-align: center;  
   font-size: 15px;
 }
+
+
+/* 1. 메인 컨텐츠 중첩 flex (Vertical) */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid green; /* 이미지의 초록색 테두리 */
+}
+
+.section {
+  border: 2px solid purple; /* 이미지의 보라색 테두리 */
+  padding: 15px;
+}
+
+/* 2. 이미지, 제목 (Vertical) */
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightblue; /* 이미지의 하늘색 테두리 */
+  padding: 10px;
+}
+
+/* 3. 이미지 (Horizontal) */
+.image-group {
+  display: flex;
+  flex-direction: row; /* 가로 배치 */
+  gap: 5px;
+}
+
+.image-group img {
+  width: 80px; /* 적절한 크기로 조절 */
+  height: auto;
+}
+
+/* 4. 제목, 내용 (Vertical) */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 영화 리스트 레이아웃을 위한 추가 설정 */
+.movie-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* 카드가 많아지면 다음 줄로 */
+  gap: 15px;
+}
