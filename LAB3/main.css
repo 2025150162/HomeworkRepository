@@ -65,13 +65,13 @@ h1 {
     width:200px;
 }
 
+
 .image-group {
     display: flex;
     flex-direction: row;
     gap: 5px;
     transition: transform 2.0s ease;
 }
-
 .image-group:hover {
     transform: scale(1.25);
 }
@@ -81,6 +81,18 @@ h1 {
     height: auto;
 }
 
+.hover-text {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    position: absolute; 
+    opacity: 0;
+    transition: transform 1.0s ease;
+}
+
+.image-group:hover .hover-text {
+    transform: opacity(1);
+}
 
 
 
