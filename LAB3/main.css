@@ -78,7 +78,7 @@ h1 {
 }
 
 .image-group img {
-    width: 80px;
+    width: 150px;
     height: auto;
 }
 
@@ -86,7 +86,8 @@ h1 {
     background-color: black;
     color: white;
     padding: 5px;
-    position: relative; 
+    position: absolute;
+    text-align: center;
     margin-top: 200px;
     opacity: 0;
     transition: opacity 1.0s ease;
