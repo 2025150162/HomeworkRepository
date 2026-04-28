@@ -63,6 +63,7 @@ h1 {
     border: 1px solid lightblue;
     padding: 25px;
     width:200px;
+    height:350px;
 }
 
 
@@ -85,7 +86,8 @@ h1 {
     background-color: black;
     color: white;
     padding: 5px;
-    position: absolute; 
+    position: relative; 
+    margin-top: 200px;
     opacity: 0;
     transition: opacity 1.0s ease;
 }
