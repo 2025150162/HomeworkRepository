@@ -61,7 +61,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     border: 1px solid lightblue;
-    padding: 10px;
+    padding: 25px;
     width:200px;
 }
 
@@ -73,7 +73,7 @@ h1 {
 }
 
 .image-group:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 
 .image-group img {
