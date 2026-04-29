@@ -32,6 +32,24 @@ h1 {
 }
 
 
+
+/* For Login/Signup */
+.center-block {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 20;
+    font-family: Arial;
+    color: #333;
+    width: 300px;
+    height: 450px;
+}
+
+
+
+
 /* 1. main */
 .main-container {
     display: flex;
@@ -103,20 +121,4 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-
-/* For Login/Signup */
-.center-block {
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 20px;
-    margin: 50px auto;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    font-size: 20;
-    font-family: Arial;
-    color: #333;
-    width: 300px;
-    height: 450px;
 }
